@@ -1,3 +1,5 @@
+#para ejecutar basta con ejecutar python agente.py
+
 import re
 
 class AgenteGerencial:
