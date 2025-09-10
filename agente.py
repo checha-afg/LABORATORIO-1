@@ -2,7 +2,7 @@ import re
 
 class AgenteGerencial:
     def __init__(self):
-        # Base de conocimiento con temas clave
+        # Base de conocimiento
         self.base_conocimiento = {
             "estrategia": "Las decisiones estratégicas se centran en el largo plazo, como expansión de mercados, innovación o alianzas. Implican alto riesgo y requieren análisis de entorno.",
             "recursos": "La asignación de recursos debe priorizar actividades con mayor retorno de inversión y alineación a los objetivos estratégicos.",
@@ -30,7 +30,7 @@ class AgenteGerencial:
         return "Para esa decisión específica recomiendo un análisis basado en datos, evaluación de riesgos y alineación con los objetivos estratégicos."
 
 
-# Ejemplo de uso
+# Ejecución inicial
 if __name__ == "__main__":
     agente = AgenteGerencial()
     print("🤖 Agente Gerencial listo. Hazme preguntas sobre toma de decisiones.")
